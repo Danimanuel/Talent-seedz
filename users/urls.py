@@ -1,8 +1,7 @@
 from django.urls import path
 from rest_framework.routers import DefaultRouter
 from .views import AutorViewsSet, LivroViewsSet
-from .serializers import AutorSerializers, LivroSerializers
-from .models import Autor,Livro
+
 
 
 router = DefaultRouter()
